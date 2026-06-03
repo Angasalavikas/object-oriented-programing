@@ -17,6 +17,5 @@ public class Main{
         System.out.println("discountPercentage : " + products.discountPercentage);
         System.out.println("rating : " + products.rating);
         System.out.println("isAvailable : " + products.isAvailable);
-
     }
 }
