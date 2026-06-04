@@ -3,6 +3,7 @@ public class Main {
     static void main() {
         Order Order;
         Order = new Order(124858,"laptop","thanapalli",447754748,"4747");
+        Order.displayOrderDetails();
 //        System.out.println("id:" + Order.id);
 //        System.out.println("productName:" + Order.productName);
 //        System.out.println("address:" + Order.address);
@@ -17,6 +18,7 @@ public class Main {
 //       System.out.println("discountPercentage : " + Customer.phoneNo);
 //       System.out.println("rating : " + Customer.address);
         Order Order2 = new Order(238, "car", "balu2GMAIL", 4949498, "KKV PARAM");
+        Order2.displayOrderDetails();
 //        System.out.println("id : " + Customer2.id);
 //        System.out.println("name : " + Customer2.name);
 //        System.out.println("email : " + Customer2.email);
