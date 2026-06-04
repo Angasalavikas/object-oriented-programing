@@ -17,4 +17,5 @@ public class products {
         this.isAvailable = isAvailable;
         System.out.println("products() is called :");
     }
+
 }
