@@ -16,6 +16,11 @@ public class Main{
 //        System.out.println("phoneNo : " + Customer2.phoneNo);
 //        System.out.println("address: " + Customer2.address);
         Customer2.displayCustomerDetails();
+        Customer Customer3 = new Customer(1234,"kittu","kittu@mail",399749434,"eng palli");
+        Customer3.displayCustomerDetails();
+        Customer.displayCustomerByCompany();
+        int customerCount = Customer.getCustomerCount();
+            System.out.println("customer count: " + customerCount);
 //    }
     }
 }

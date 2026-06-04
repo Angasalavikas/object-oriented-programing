@@ -22,5 +22,13 @@ public class Customer {
         System.out.println("email : " + Customer.email);
         System.out.println("phoneNo : " + Customer.phoneNo);
         System.out.println("address : " + Customer.address);
+        }
+    void displayCustomerByCompany(){
+
+        System.out.println("customer by name: " + "google");
+        }
+        int getCustomerCount() {
+
+        return 10;
+        }
     }
-}
