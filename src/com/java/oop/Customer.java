@@ -8,11 +8,11 @@ public class Customer {
     static String address;
 
     public Customer(int id, String name, String email, int phoneNo, String address) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.phoneNo = phoneNo;
-        this.address = address;
+        Customer.id = id;
+        Customer.name = name;
+        Customer.email = email;
+        Customer.phoneNo = phoneNo;
+        Customer.address = address;
         System.out.println("Customer() is called");
     }
     void displayCustomerDetails(){
