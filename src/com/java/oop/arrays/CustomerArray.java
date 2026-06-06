@@ -10,7 +10,6 @@ public class CustomerArray {
         customers[2] = new Customer(103, "vamsi", 32787939, "vikas@2333", "palli", 'M');
         customers[3] = new Customer(104, "arun", 32764939, "vikas@23333", "diguvapalli", 'F');
         customers[4] = new Customer(105, "kiran", 327912339, "vikas@233333", "theunapalli", 'F');
-
         for(Customer customer : customers){
             Customer.displayCustomerDetails();
         }
