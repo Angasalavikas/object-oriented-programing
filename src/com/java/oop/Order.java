@@ -15,7 +15,8 @@ public class Order {
         Order.shippingDate = shippingDate;
         System.out.println("order is called");
     }
-    void displayOrderDetails(){
+
+    void displayOrderDetails() {
         System.out.println("id:" + Order.id);
         System.out.println("productName:" + Order.productName);
         System.out.println("address:" + Order.address);
