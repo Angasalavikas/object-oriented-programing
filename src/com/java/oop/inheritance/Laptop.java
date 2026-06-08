@@ -14,13 +14,14 @@ public class Laptop extends Products{
         this.ram = ram;
         this.operatingSystem = operatingSystem;
     }
-    void displayLaptopDetails(){
-        displayProductsDetails();
+    @Override
+    void displayDetails(){
+        super.displayDetails();
         System.out.println("hardDisk :" + hardDisk);
         System.out.println("ram :" + ram);
         System.out.println("operatingSystem :" + operatingSystem);
     }
-    void displayProductsDetails(String company,int year, boolean isAvailable){
+    void displayDetails(String company,int year, boolean isAvailable){
         System.out.println("company: " + company);
         System.out.println("year: " + year);
         System.out.println("isAvailable: " + isAvailable);
