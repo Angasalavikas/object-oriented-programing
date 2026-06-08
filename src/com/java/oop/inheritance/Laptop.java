@@ -6,6 +6,7 @@ public class Laptop extends Products{
     String operatingSystem;
 
     public Laptop() {
+
         System.out.println("laptop constructor called ");
     }
     public Laptop(int id, String name, double maxRetailPrice, float discountPercentage, float rating, boolean isAvailable, int harDisk, int ram, String operatingSystem) {
