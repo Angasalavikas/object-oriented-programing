@@ -22,17 +22,17 @@ public class Products {
         this.rating = rating;
         this.isAvailable = isAvailable;
     }
-    void displayProductsDetails(){
+    void displayDetails(){
         System.out.println("id :" + id);
         System.out.println("name :" + name);
         System.out.println("MRP :" + maxRetailPrice);
         System.out.println("rating :" + rating);
         System.out.println("isAvailable:" + isAvailable);
     }
-    void displayProductDetails(String company){
+    void displayDetails(String company){
         System.out.println("company: " + company);
     }
-    void displayProductDetails(String company,int year){
+    void displayDetails(String company,int year){
         System.out.println("company: " + company + "year:" + year);
     }
 }
