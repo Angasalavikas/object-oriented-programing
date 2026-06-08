@@ -33,6 +33,7 @@ public class Products {
         System.out.println("company: " + company);
     }
     void displayDetails(String company,int year){
+
         System.out.println("company: " + company + "year:" + year);
     }
 }
