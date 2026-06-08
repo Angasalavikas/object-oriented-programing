@@ -11,8 +11,9 @@ public class Book extends Products{
         this.pages = pages;
         this.publisher = publisher;
     }
-    void displayBookDetails(){
-        displayProductsDetails();
+    @Override
+    void displayDetails(){
+        super.displayDetails();
         System.out.println("author:" + author);
         System.out.println("pages :" + pages);
         System.out.println("publisher :" + publisher);
