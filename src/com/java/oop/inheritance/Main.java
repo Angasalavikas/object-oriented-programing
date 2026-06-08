@@ -20,5 +20,8 @@ public class Main {
          service.validate(wIndowsLaptop);
          Service service1 = new Service();
          service.validate(laptop);
+         wIndowsLaptop.displayProductDetails("microsoft");
+         wIndowsLaptop.displayProductDetails("microsoft",2026);
+
     }
 }

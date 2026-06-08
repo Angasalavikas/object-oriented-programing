@@ -29,4 +29,10 @@ public class Products {
         System.out.println("rating :" + rating);
         System.out.println("isAvailable:" + isAvailable);
     }
+    void displayProductDetails(String company){
+        System.out.println("company: " + company);
+    }
+    void displayProductDetails(String company,int year){
+        System.out.println("company: " + company + "year:" + year);
+    }
 }
