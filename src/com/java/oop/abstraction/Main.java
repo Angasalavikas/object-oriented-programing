@@ -23,8 +23,8 @@ public class Main {
         double amount;
         Payment payment;
         int otp;
-        switch (choose){
-            case 1 :
+        switch (choose) {
+            case 1:
                 payment = new CashOnDeliveryPayment();
                 orderService = new OrderService(payment);
                 System.out.println("Enter value: ");
@@ -32,11 +32,11 @@ public class Main {
                 System.out.println("Enter otp:");
                 otp = sc.nextInt();
                 payment.otpValidate(otp);
-               if(orderService.processOrder(amount)){
-                   System.out.println("order processing using cash on delivery");
-                   break;
-               }
-            case 2 :
+                if (orderService.processOrder(amount)) {
+                    System.out.println("order processing using cash on delivery");
+                    break;
+                }
+            case 2:
                 payment = new CreditCardPayment();
                 orderService = new OrderService(payment);
                 System.out.println("Enter value: ");
@@ -44,11 +44,11 @@ public class Main {
                 System.out.println("Enter otp:");
                 otp = sc.nextInt();
                 payment.otpValidate(otp);
-                if(orderService.processOrder(amount)){
+                if (orderService.processOrder(amount)) {
                     System.out.println("order processing using Credit card");
                     break;
                 }
-            case 3 :
+            case 3:
                 payment = new DebitCard();
                 orderService = new OrderService(payment);
                 System.out.println("enter value:");
@@ -58,11 +58,12 @@ public class Main {
                 payment.otpValidate(otp);
                 System.out.println("order processing using DebitCard");
                 break;
-            case 4 :
+            case 4:
                 payment = new CashOnDeliveryPayment();
                 orderService = new OrderService(payment);
                 System.out.println("Enter the value: ");
-                amount = sc.nextDouble();System.out.println("Enter otp:");
+                amount = sc.nextDouble();
+                System.out.println("Enter otp:");
                 otp = sc.nextInt();
                 payment.otpValidate(otp);
                 System.out.println("order process using upi");
