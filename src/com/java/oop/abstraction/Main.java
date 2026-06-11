@@ -65,7 +65,6 @@ public class Main {
                 amount = sc.nextDouble();
                 System.out.println("Enter otp:");
                 otp = sc.nextInt();
-
                 payment.otpValidate(otp);
                 System.out.println("order process using upi");
                 break;
