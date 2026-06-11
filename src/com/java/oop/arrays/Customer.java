@@ -8,6 +8,7 @@ public class Customer {
         static String address;
         static char gender;
 
+
     public Customer(int id, String name, int phoneNo, String email, String address,char gender) {
         this.id = id;
         this.name = name;
@@ -19,6 +20,7 @@ public class Customer {
     static void displayCustomerDetails(){
         System.out.println("................customer details.........................");
         System.out.println("id: " + id);
+
         System.out.println("name: " + name);
         System.out.println("phoneNo: " + phoneNo);
         System.out.println("email: " + email);
