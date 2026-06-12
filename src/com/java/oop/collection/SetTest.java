@@ -27,7 +27,9 @@ public class SetTest {
             name.add("kittu");
             name.add("balu");
         System.out.println(name);
-        for (String names : name) {
+        Iterator<String> iterator = name.iterator();
+        while(iterator.hasNext()){
+            String names = iterator.next();
             System.out.println(name.size());
         }
 
