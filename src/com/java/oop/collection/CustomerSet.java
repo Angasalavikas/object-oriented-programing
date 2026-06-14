@@ -5,10 +5,11 @@ import com.java.oop.model.Customer;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class CustomerSet {
     static void main() {
-        Set<Customer> customers = new HashSet<>();
+        Set<Customer> customers = new TreeSet<>();
         Customer customer1= new Customer();
         customer1.setId(102)
                 .setName("customer1")
