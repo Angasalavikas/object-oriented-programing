@@ -9,7 +9,7 @@ import java.util.TreeSet;
 
 public class CustomerSet {
     static void main() {
-        Set<Customer> customers = new TreeSet<>();
+        Set<Customer> customers = new LinkedHashSet<>();
         Customer customer1= new Customer();
         customer1.setId(102)
                 .setName("customer1")
