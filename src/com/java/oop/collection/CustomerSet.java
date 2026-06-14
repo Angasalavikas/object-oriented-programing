@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class CustomerSet {
     static void main() {
-        Set<Customer> customers = new LinkedHashSet<>();
+        Set<Customer> customers = new HashSet<>();
         Customer customer1= new Customer();
         customer1.setId(102)
                 .setName("customer1")
