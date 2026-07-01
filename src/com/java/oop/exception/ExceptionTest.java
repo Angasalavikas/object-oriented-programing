@@ -20,6 +20,7 @@ public class ExceptionTest {
     }
 
     private static void input() {
+
         System.out.println("input continue");
     }
 }
