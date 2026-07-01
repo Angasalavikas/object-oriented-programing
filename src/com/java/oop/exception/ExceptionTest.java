@@ -15,7 +15,6 @@ public class ExceptionTest {
         }catch (ArithmeticException e){
             System.out.println("number1 cant be zero");
             input();
-
         }
     }
 
